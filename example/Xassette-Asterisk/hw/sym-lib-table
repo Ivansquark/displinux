@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "F133")(type "Legacy")(uri "${KIPRJMOD}/lib/F133.lib")(options "")(descr ""))
+  (lib (name "XassetteAsterisk-rescue")(type "KiCad")(uri "${KIPRJMOD}/XassetteAsterisk-rescue.kicad_sym")(options "")(descr ""))
+)
