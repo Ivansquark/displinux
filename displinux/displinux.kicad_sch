@@ -11414,6 +11414,12 @@
 		(uuid "9a51739e-57e4-4636-a12b-851dc9152ed6")
 	)
 	(junction
+		(at 320.04 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dc28b1d-fa63-41f5-8154-c152fb556f96")
+	)
+	(junction
 		(at 521.97 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11484,12 +11490,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afce87ab-f506-4c5c-93e9-0140fb27cdd5")
-	)
-	(junction
-		(at 320.04 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b08ff1a7-2cf1-4afa-8591-be71400e9721")
 	)
 	(junction
 		(at 516.89 71.12)
@@ -11853,7 +11853,7 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 378.46) (xy 411.48 379.73)
+			(xy 411.48 370.84) (xy 411.48 378.46)
 		)
 		(stroke
 			(width 0)
@@ -13203,6 +13203,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 245.11) (xy 209.55 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c36a021-b23d-44f9-87fd-efdc3354eaf2")
+	)
+	(wire
+		(pts
 			(xy 508 110.49) (xy 524.51 110.49)
 		)
 		(stroke
@@ -13980,16 +13990,6 @@
 			(type default)
 		)
 		(uuid "742959eb-4e05-4e6e-ae67-f7da1b3a739f")
-	)
-	(wire
-		(pts
-			(xy 327.66 161.29) (xy 340.36 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74cdf53f-9ce1-4ea0-b67a-21180e27265d")
 	)
 	(wire
 		(pts
@@ -14923,7 +14923,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 347.98) (xy 346.71 347.98)
+			(xy 309.88 342.9) (xy 304.8 342.9)
 		)
 		(stroke
 			(width 0)
@@ -15951,6 +15951,16 @@
 		)
 		(uuid "ccfe59ee-c446-438d-9988-22480ffaa495")
 	)
+	(polyline
+		(pts
+			(xy 321.31 287.02) (xy 321.31 407.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd038598-4140-4cfd-ad1c-3720e1749c2e")
+	)
 	(wire
 		(pts
 			(xy 539.75 171.45) (xy 547.37 171.45)
@@ -16173,7 +16183,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 350.52) (xy 346.71 350.52)
+			(xy 309.88 345.44) (xy 304.8 345.44)
 		)
 		(stroke
 			(width 0)
@@ -16220,6 +16230,16 @@
 			(type default)
 		)
 		(uuid "d8e30d7b-1b8b-4152-8376-4d2a5e5de769")
+	)
+	(wire
+		(pts
+			(xy 320.04 161.29) (xy 340.36 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90710d7-7afc-482c-9b64-7566e7dda5e8")
 	)
 	(wire
 		(pts
@@ -16420,6 +16440,16 @@
 			(type default)
 		)
 		(uuid "e252ca45-02c2-43f0-9396-90bf92159685")
+	)
+	(wire
+		(pts
+			(xy 209.55 256.54) (xy 209.55 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2831c52-25cc-4b10-9983-f174d633a888")
 	)
 	(wire
 		(pts
@@ -17062,17 +17092,6 @@
 		)
 		(uuid "0a766dfd-6630-44b9-9e26-b0cef8673b50")
 	)
-	(text "Choose pull-up / pull-down\naccording to LCD spec\nor leave unconnected when\nLCD is not used"
-		(exclude_from_sim no)
-		(at 409.194 361.442 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e5b6e88-9993-4336-9286-c05fadbce590")
-	)
 	(text "BOOT"
 		(exclude_from_sim no)
 		(at 22.86 83.82 0)
@@ -17094,6 +17113,16 @@
 			)
 		)
 		(uuid "183356fa-e73a-45ea-850a-46afac47c323")
+	)
+	(text "closer to pin 49"
+		(exclude_from_sim no)
+		(at 203.962 241.808 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29f322c8-782c-4c56-995f-a44885cc1715")
 	)
 	(text "HOST"
 		(exclude_from_sim no)
@@ -17160,6 +17189,17 @@
 			)
 		)
 		(uuid "9d0ce532-2952-4973-a5cf-a7ee6be75f61")
+	)
+	(text "LCD-MIPI"
+		(exclude_from_sim no)
+		(at 332.994 404.114 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "a1b45c65-6de6-40f9-b427-9c3f8bdd59d3")
 	)
 	(text "UART0"
 		(exclude_from_sim no)
@@ -17779,7 +17819,7 @@
 		(uuid "2c385f6c-5063-45e2-904e-ba78dcce8d93")
 	)
 	(label "NCSI0-PCLK"
-		(at 351.79 347.98 0)
+		(at 309.88 342.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17878,13 +17918,13 @@
 		(uuid "3bc9defc-585d-4f98-9aa0-6ae4f68513b0")
 	)
 	(label "DISP"
-		(at 411.48 379.73 180)
+		(at 411.48 375.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "3bfc00ea-fc85-42e0-b461-ddd56248a392")
 	)
@@ -18713,6 +18753,17 @@
 		)
 		(uuid "829c2bf4-baab-4f41-b0a9-05ec8f71b643")
 	)
+	(label "LDOB-OUT"
+		(at 209.55 245.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "838a395c-0b10-4fc9-80d5-fee2fd638ce0")
+	)
 	(label "SPI0_WP"
 		(at 207.01 184.15 180)
 		(fields_autoplaced yes)
@@ -19462,7 +19513,7 @@
 		(uuid "c771f333-5bda-408f-b72e-9de23c454c06")
 	)
 	(label "NCSI0-MCLK"
-		(at 351.79 350.52 0)
+		(at 309.88 345.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20714,74 +20765,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 323.85 161.29 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0cfb99d6-0703-4d40-91cb-7f7966c416c7")
-		(property "Reference" "R33"
-			(at 323.85 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 327.152 162.814 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 323.85 163.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 323.85 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 323.85 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e0e1cc9-6ec4-4cb2-b83b-2054374ecf19")
-		)
-		(pin "2"
-			(uuid "745b61ea-f623-42f6-a6fe-eded5c5fdc0c")
-		)
-		(instances
-			(project "displinux"
-				(path "/c097ddf1-c967-4eca-a041-b7e2441e5d19"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "XassetteAsterisk-rescue:+1V8-power")
 		(at 199.39 196.85 90)
 		(unit 1)
@@ -21793,7 +21776,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 341.63 347.98 0)
+		(at 299.72 342.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21801,7 +21784,7 @@
 		(dnp no)
 		(uuid "1a807c4b-7c14-44df-aa19-c6bf67092053")
 		(property "Reference" "J9"
-			(at 341.122 342.392 0)
+			(at 299.212 337.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21809,7 +21792,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 341.884 344.932 0)
+			(at 299.974 339.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21817,7 +21800,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 341.63 347.98 0)
+			(at 299.72 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21826,7 +21809,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 341.63 347.98 0)
+			(at 299.72 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21835,7 +21818,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 341.63 347.98 0)
+			(at 299.72 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22326,16 +22309,16 @@
 	)
 	(symbol
 		(lib_id "XassetteAsterisk-rescue:GND-power")
-		(at 411.48 387.35 0)
+		(at 209.55 256.54 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "22832a0f-4df8-42c8-8edd-79df5807e08e")
-		(property "Reference" "#PWR0150"
-			(at 411.48 393.7 0)
+		(uuid "22693c1a-defc-4685-af4e-f4644b0c6824")
+		(property "Reference" "#PWR047"
+			(at 209.55 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22344,15 +22327,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 411.353 391.7442 0)
+			(at 209.423 259.7912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 411.48 387.35 0)
+			(at 209.55 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22361,7 +22345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 411.48 387.35 0)
+			(at 209.55 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22370,7 +22354,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 411.48 387.35 0)
+			(at 209.55 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22379,12 +22363,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0a5174e1-2b41-4762-b8f6-610ff3da8355")
+			(uuid "22e095e7-fd08-4735-bb1a-5337e837f464")
 		)
 		(instances
 			(project "displinux"
 				(path "/c097ddf1-c967-4eca-a041-b7e2441e5d19"
-					(reference "#PWR0150")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -23950,7 +23934,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "38f44c8e-372c-44d5-bd11-3f5b107b9c22")
 		(property "Reference" "#FLG01"
 			(at 320.04 159.385 0)
@@ -23962,7 +23945,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 320.04 156.21 0)
+			(at 326.136 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26685,7 +26668,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "10u"
 			(at 413.7406 303.53 90)
 			(effects
 				(font
@@ -29338,74 +29321,6 @@
 			(project "displinux"
 				(path "/c097ddf1-c967-4eca-a041-b7e2441e5d19"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 411.48 383.54 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7154adda-1a2d-4a0b-9702-80fa2af035ac")
-		(property "Reference" "R48"
-			(at 414.02 384.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 414.02 382.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 413.258 383.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 411.48 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 411.48 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a372e1df-91dd-4da6-8a77-b63a209b8847")
-		)
-		(pin "2"
-			(uuid "2b52b7ca-65d6-4539-8388-578e30242562")
-		)
-		(instances
-			(project "displinux"
-				(path "/c097ddf1-c967-4eca-a041-b7e2441e5d19"
-					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -34474,6 +34389,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 209.55 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7371268-c295-4cdd-84b9-f46155533524")
+		(property "Reference" "C13"
+			(at 203.1492 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 205.4606 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 210.5152 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e48fe837-81e7-4599-8d72-cf2ca44ca6c7")
+		)
+		(pin "2"
+			(uuid "608d0f95-dc14-4194-9297-23c7d36aa327")
+		)
+		(instances
+			(project "displinux"
+				(path "/c097ddf1-c967-4eca-a041-b7e2441e5d19"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "XassetteAsterisk-rescue:GND-power")
 		(at 501.65 236.22 0)
 		(mirror y)
@@ -34936,74 +34918,6 @@
 			(project "displinux"
 				(path "/c097ddf1-c967-4eca-a041-b7e2441e5d19"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 411.48 374.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae467cc5-4457-4904-ab69-3a0c2024cf27")
-		(property "Reference" "R47"
-			(at 414.02 375.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 414.02 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 413.258 374.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 411.48 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 411.48 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e339ca7-1cd1-4d58-8027-405226538bf4")
-		)
-		(pin "2"
-			(uuid "0d5d2914-cea4-40e6-b22f-cb723e4d8937")
-		)
-		(instances
-			(project "displinux"
-				(path "/c097ddf1-c967-4eca-a041-b7e2441e5d19"
-					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -39451,7 +39365,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "10u"
 			(at 158.4706 250.19 90)
 			(effects
 				(font
@@ -40062,7 +39976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_2010_5025Metric"
 			(at 548.64 313.69 0)
 			(effects
 				(font
