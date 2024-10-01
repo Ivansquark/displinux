@@ -11435,6 +11435,12 @@
 		(uuid "4852bd20-52a2-448b-8234-3f1cb64aa962")
 	)
 	(junction
+		(at 505.46 336.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e881289-e4c8-4ed8-a329-b4369191c9d7")
+	)
+	(junction
 		(at 516.89 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11463,12 +11469,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64a2ff0c-18df-4a27-940a-960d1077bdf1")
-	)
-	(junction
-		(at 515.62 336.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "663f995d-e699-441c-bfdc-d5bb2f039d41")
 	)
 	(junction
 		(at 516.89 87.63)
@@ -11909,6 +11909,12 @@
 		(uuid "fbd40ffc-2c69-4fb5-8104-e0c43e5ebca9")
 	)
 	(junction
+		(at 528.32 332.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbecba32-6458-4810-a083-2e6787a3b36d")
+	)
+	(junction
 		(at 335.28 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12066,7 +12072,7 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 370.84) (xy 411.48 378.46)
+			(xy 411.48 353.06) (xy 411.48 354.33)
 		)
 		(stroke
 			(width 0)
@@ -12586,7 +12592,7 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 330.2) (xy 515.62 336.55)
+			(xy 505.46 330.2) (xy 505.46 336.55)
 		)
 		(stroke
 			(width 0)
@@ -12643,6 +12649,16 @@
 			(type default)
 		)
 		(uuid "1ac2ba90-c972-41dc-8cb8-437ed98a5bfa")
+	)
+	(wire
+		(pts
+			(xy 510.54 332.74) (xy 519.43 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad52edd-f2a2-4ae3-83d7-ce056823ed4c")
 	)
 	(wire
 		(pts
@@ -14083,6 +14099,16 @@
 			(type default)
 		)
 		(uuid "610f3c45-709e-49d6-a14d-27fdf2a2a472")
+	)
+	(wire
+		(pts
+			(xy 411.48 361.95) (xy 411.48 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614e5da0-9229-494a-a7c9-8622c46ba42e")
 	)
 	(wire
 		(pts
@@ -15736,6 +15762,16 @@
 	)
 	(wire
 		(pts
+			(xy 527.05 332.74) (xy 528.32 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c122bc-8302-4092-b01a-f5061c93eb42")
+	)
+	(wire
+		(pts
 			(xy 203.2 38.1) (xy 203.2 55.88)
 		)
 		(stroke
@@ -16326,7 +16362,7 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 330.2) (xy 525.78 330.2)
+			(xy 505.46 330.2) (xy 525.78 330.2)
 		)
 		(stroke
 			(width 0)
@@ -17323,6 +17359,16 @@
 			(type default)
 		)
 		(uuid "df439b9e-501f-4066-9617-168ebeb4451b")
+	)
+	(wire
+		(pts
+			(xy 411.48 375.92) (xy 411.48 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e2474d-b19d-4286-b903-6969ea4db211")
 	)
 	(wire
 		(pts
@@ -19217,7 +19263,7 @@
 		(uuid "3bc9defc-585d-4f98-9aa0-6ae4f68513b0")
 	)
 	(label "DISP"
-		(at 411.48 375.92 0)
+		(at 411.48 364.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20029,6 +20075,17 @@
 			(justify right bottom)
 		)
 		(uuid "7e36a79d-ecfc-4499-9f43-7dfee003a6b0")
+	)
+	(label "PWM_LCD"
+		(at 510.54 332.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fb5c3eb-1022-4b5d-b14a-0b979072d069")
 	)
 	(label "LCD0-D22"
 		(at 462.28 317.5 180)
@@ -23549,6 +23606,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 411.48 358.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20815e2c-41a4-4c06-aff7-8eeec1993be7")
+		(property "Reference" "R52"
+			(at 415.29 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5R1"
+			(at 415.29 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 413.258 358.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 411.48 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 411.48 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "767c0748-eac8-494b-918c-35eeef2d30de")
+		)
+		(pin "2"
+			(uuid "4fa0d4e3-c829-4e49-8bac-f6bbf4312fef")
+		)
+		(instances
+			(project "displinux"
+				(path "/c097ddf1-c967-4eca-a041-b7e2441e5d19"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "XassetteAsterisk-rescue:GND-power")
 		(at 193.04 256.54 0)
 		(mirror y)
@@ -24078,6 +24203,74 @@
 			(project "displinux"
 				(path "/c097ddf1-c967-4eca-a041-b7e2441e5d19"
 					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 523.24 332.74 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "242e1050-f20f-4ea8-ac4d-af0554b16340")
+		(property "Reference" "R54"
+			(at 519.43 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 522.478 335.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 523.24 330.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 523.24 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 523.24 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed1a176e-7eaf-4b8a-948c-e7d1693cd524")
+		)
+		(pin "2"
+			(uuid "547f0d54-a72f-411a-855d-3b5bcc7a20ae")
+		)
+		(instances
+			(project "displinux"
+				(path "/c097ddf1-c967-4eca-a041-b7e2441e5d19"
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -31846,6 +32039,72 @@
 		)
 	)
 	(symbol
+		(lib_id "XassetteAsterisk-rescue:GND-power")
+		(at 411.48 375.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76a87037-5193-4a09-a3c5-c8ba81af9460")
+		(property "Reference" "#PWR0166"
+			(at 411.48 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 411.607 379.1712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 411.48 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 411.48 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 411.48 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "013be3da-be7a-4283-adea-3353a7d0dd9d")
+		)
+		(instances
+			(project "displinux"
+				(path "/c097ddf1-c967-4eca-a041-b7e2441e5d19"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 63.5 144.78 270)
 		(mirror x)
@@ -38727,7 +38986,7 @@
 	)
 	(symbol
 		(lib_id "XassetteAsterisk-rescue:+3V3-power")
-		(at 411.48 370.84 0)
+		(at 411.48 353.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38736,7 +38995,7 @@
 		(dnp no)
 		(uuid "bfeb25c9-990e-4992-a3f2-9f0c718449ed")
 		(property "Reference" "#PWR0140"
-			(at 411.48 374.65 0)
+			(at 411.48 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38745,7 +39004,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 411.099 366.4458 0)
+			(at 414.02 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38753,7 +39012,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 411.48 370.84 0)
+			(at 411.48 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38762,7 +39021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 411.48 370.84 0)
+			(at 411.48 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38771,7 +39030,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 411.48 370.84 0)
+			(at 411.48 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43049,6 +43308,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 411.48 369.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2e3f5de-66f5-4480-ad31-44a4359a6ace")
+		(property "Reference" "R53"
+			(at 415.29 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5R1"
+			(at 415.29 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 413.258 369.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 411.48 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 411.48 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d49b3d68-e56f-42ca-9ef5-7fa84366d4a1")
+		)
+		(pin "2"
+			(uuid "5040c855-fac2-4c60-af68-5c52b6d35e8e")
+		)
+		(instances
+			(project "displinux"
+				(path "/c097ddf1-c967-4eca-a041-b7e2441e5d19"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 99.06 337.82 0)
 		(unit 1)
@@ -43277,7 +43604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 524.51 139.192 90)
 			(effects
 				(font

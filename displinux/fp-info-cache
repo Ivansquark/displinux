@@ -1,4 +1,4 @@
-23760893955931712
+23764343956085690
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64658,6 +64658,20 @@ SD Card Socket, Olimex, MICRO-SD-CARD
 0
 13
 10
+Micro_SD
+linux_mascot
+
+
+0
+0
+0
+Micro_SD
+logo_disp
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
